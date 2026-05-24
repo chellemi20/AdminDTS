@@ -1,0 +1,318 @@
+{
+  "backups": [
+    {
+      "backup_id": 1,
+      "triggered_by": 2,
+      "archive_path": null,
+      "status": "running",
+      "size_bytes": null,
+      "created_at": "2026-05-07T05:08:29.000Z",
+      "completed_at": null,
+      "error": null
+    }
+  ],
+  "document_access_requests": [],
+  "document_acl": [],
+  "document_audit_logs": [],
+  "document_signatures": [],
+  "document_versions": [],
+  "documents": [],
+  "offices": [
+    {
+      "destination_office_id": 1,
+      "office_name": "Office of the Director"
+    },
+    {
+      "destination_office_id": 2,
+      "office_name": "General Services"
+    },
+    {
+      "destination_office_id": 3,
+      "office_name": "Records Management"
+    },
+    {
+      "destination_office_id": 4,
+      "office_name": "Admin Support"
+    }
+  ],
+  "permissions": [
+    {
+      "permission_id": 1,
+      "permission_key": "document.view_all",
+      "description": "View all tracked documents",
+      "created_at": "2026-05-07T04:57:26.000Z"
+    },
+    {
+      "permission_id": 2,
+      "permission_key": "document.view_assigned",
+      "description": "View assigned or granted documents",
+      "created_at": "2026-05-07T04:57:26.000Z"
+    },
+    {
+      "permission_id": 3,
+      "permission_key": "document.request_access",
+      "description": "Request access to restricted documents",
+      "created_at": "2026-05-07T04:57:26.000Z"
+    },
+    {
+      "permission_id": 4,
+      "permission_key": "document.approve",
+      "description": "Approve or reject documents",
+      "created_at": "2026-05-07T04:57:26.000Z"
+    },
+    {
+      "permission_id": 5,
+      "permission_key": "document.sign",
+      "description": "Apply digital signature to document",
+      "created_at": "2026-05-07T04:57:26.000Z"
+    },
+    {
+      "permission_id": 6,
+      "permission_key": "routing.view_logs",
+      "description": "View routing logs and movement history",
+      "created_at": "2026-05-07T04:57:26.000Z"
+    },
+    {
+      "permission_id": 7,
+      "permission_key": "signature.view_all",
+      "description": "View signature records",
+      "created_at": "2026-05-07T04:57:26.000Z"
+    },
+    {
+      "permission_id": 8,
+      "permission_key": "backup.run",
+      "description": "Run one-click backup",
+      "created_at": "2026-05-07T04:57:26.000Z"
+    },
+    {
+      "permission_id": 9,
+      "permission_key": "backup.restore",
+      "description": "Restore from backup",
+      "created_at": "2026-05-07T04:57:26.000Z"
+    }
+  ],
+  "role_permissions": [
+    {
+      "role_id": 1,
+      "permission_id": 1,
+      "granted_at": "2026-05-07T04:57:26.000Z"
+    },
+    {
+      "role_id": 1,
+      "permission_id": 4,
+      "granted_at": "2026-05-07T04:57:26.000Z"
+    },
+    {
+      "role_id": 1,
+      "permission_id": 5,
+      "granted_at": "2026-05-07T04:57:26.000Z"
+    },
+    {
+      "role_id": 1,
+      "permission_id": 6,
+      "granted_at": "2026-05-07T04:57:26.000Z"
+    },
+    {
+      "role_id": 1,
+      "permission_id": 7,
+      "granted_at": "2026-05-07T04:57:26.000Z"
+    },
+    {
+      "role_id": 1,
+      "permission_id": 8,
+      "granted_at": "2026-05-07T04:57:26.000Z"
+    },
+    {
+      "role_id": 1,
+      "permission_id": 9,
+      "granted_at": "2026-05-07T04:57:26.000Z"
+    },
+    {
+      "role_id": 2,
+      "permission_id": 1,
+      "granted_at": "2026-05-07T04:57:26.000Z"
+    },
+    {
+      "role_id": 2,
+      "permission_id": 4,
+      "granted_at": "2026-05-07T04:57:26.000Z"
+    },
+    {
+      "role_id": 2,
+      "permission_id": 5,
+      "granted_at": "2026-05-07T04:57:26.000Z"
+    },
+    {
+      "role_id": 2,
+      "permission_id": 6,
+      "granted_at": "2026-05-07T04:57:26.000Z"
+    },
+    {
+      "role_id": 2,
+      "permission_id": 7,
+      "granted_at": "2026-05-07T04:57:26.000Z"
+    },
+    {
+      "role_id": 2,
+      "permission_id": 8,
+      "granted_at": "2026-05-07T04:57:26.000Z"
+    },
+    {
+      "role_id": 2,
+      "permission_id": 9,
+      "granted_at": "2026-05-07T04:57:26.000Z"
+    },
+    {
+      "role_id": 3,
+      "permission_id": 2,
+      "granted_at": "2026-05-07T04:57:26.000Z"
+    },
+    {
+      "role_id": 3,
+      "permission_id": 3,
+      "granted_at": "2026-05-07T04:57:26.000Z"
+    },
+    {
+      "role_id": 3,
+      "permission_id": 5,
+      "granted_at": "2026-05-07T04:57:26.000Z"
+    },
+    {
+      "role_id": 4,
+      "permission_id": 2,
+      "granted_at": "2026-05-07T04:57:26.000Z"
+    },
+    {
+      "role_id": 4,
+      "permission_id": 3,
+      "granted_at": "2026-05-07T04:57:26.000Z"
+    },
+    {
+      "role_id": 4,
+      "permission_id": 5,
+      "granted_at": "2026-05-07T04:57:26.000Z"
+    }
+  ],
+  "roles": [
+    {
+      "role_id": 1,
+      "role_key": "admin_head",
+      "role_name": "Admin Head",
+      "created_at": "2026-05-07T04:57:26.000Z"
+    },
+    {
+      "role_id": 2,
+      "role_key": "director",
+      "role_name": "Director",
+      "created_at": "2026-05-07T04:57:26.000Z"
+    },
+    {
+      "role_id": 3,
+      "role_key": "admin_staff",
+      "role_name": "Admin Staff",
+      "created_at": "2026-05-07T04:57:26.000Z"
+    },
+    {
+      "role_id": 4,
+      "role_key": "admin_assistant",
+      "role_name": "Admin Assistant",
+      "created_at": "2026-05-07T04:57:26.000Z"
+    }
+  ],
+  "user_roles": [
+    {
+      "user_id": 1,
+      "role_id": 1,
+      "assigned_at": "2026-05-07T05:06:19.000Z"
+    },
+    {
+      "user_id": 2,
+      "role_id": 2,
+      "assigned_at": "2026-05-07T05:06:19.000Z"
+    },
+    {
+      "user_id": 3,
+      "role_id": 3,
+      "assigned_at": "2026-05-07T05:06:19.000Z"
+    },
+    {
+      "user_id": 4,
+      "role_id": 4,
+      "assigned_at": "2026-05-07T05:06:19.000Z"
+    }
+  ],
+  "users": [
+    {
+      "user_id": 1,
+      "full_name": "Alice Admin Head",
+      "employee_id": "DA-0001",
+      "role": "AdminHead",
+      "email_address": "adminhead@dts.local",
+      "password": "Test@1234",
+      "username": "adminhead@dts.local",
+      "department": "Office of the Director",
+      "status": "Approved",
+      "created_at": "2026-05-07T05:02:15.000Z",
+      "password_hash": "$2b$12$URwDMWouddEPT.ZS7d4I1e5T9sm0ZZ3LvjXs04dRGPp0DHtpi0b6u",
+      "password_migrated": 1,
+      "destination_office_id": 1,
+      "last_login": "2026-05-07T05:06:34.000Z",
+      "profile_picture_path": null,
+      "signature_path": "/uploads/users/1/signature_1778130426299.png"
+    },
+    {
+      "user_id": 2,
+      "full_name": "David Director",
+      "employee_id": "DA-0002",
+      "role": "Director",
+      "email_address": "director@dts.local",
+      "password": "Test@1234",
+      "username": "director@dts.local",
+      "department": "Office of the Director",
+      "status": "Approved",
+      "created_at": "2026-05-07T05:02:15.000Z",
+      "password_hash": "$2b$12$CvDuQ8aP8EVqtIr0RkQtJeph1LdxqKdzeecVXACucec7w8UZEb8Me",
+      "password_migrated": 1,
+      "destination_office_id": 1,
+      "last_login": "2026-05-07T05:07:48.000Z",
+      "profile_picture_path": null,
+      "signature_path": null
+    },
+    {
+      "user_id": 3,
+      "full_name": "Sam Admin Staff",
+      "employee_id": "DA-0003",
+      "role": "AdminStaff",
+      "email_address": "staff@dts.local",
+      "password": "Test@1234",
+      "username": "staff@dts.local",
+      "department": "Records Management",
+      "status": "Approved",
+      "created_at": "2026-05-07T05:02:15.000Z",
+      "password_hash": null,
+      "password_migrated": 0,
+      "destination_office_id": 3,
+      "last_login": null,
+      "profile_picture_path": null,
+      "signature_path": null
+    },
+    {
+      "user_id": 4,
+      "full_name": "Anne Admin Assistant",
+      "employee_id": "DA-0004",
+      "role": "AdminAssistant",
+      "email_address": "assistant@dts.local",
+      "password": "Test@1234",
+      "username": "assistant@dts.local",
+      "department": "Admin Support",
+      "status": "Approved",
+      "created_at": "2026-05-07T05:02:15.000Z",
+      "password_hash": null,
+      "password_migrated": 0,
+      "destination_office_id": 4,
+      "last_login": null,
+      "profile_picture_path": null,
+      "signature_path": null
+    }
+  ]
+}
